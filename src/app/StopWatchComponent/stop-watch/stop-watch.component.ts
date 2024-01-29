@@ -38,6 +38,7 @@ export class StopWatchComponent {
 
   clearbtn() {
     this.resetTime();
+    clearInterval(this.timestart);
     this.buttonDisabled = false;
   }
 
