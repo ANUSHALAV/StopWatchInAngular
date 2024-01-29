@@ -1,0 +1,17 @@
+.outer-box{
+    height:80vh;
+    width:100%;
+}
+
+.outer-box .inner-box{
+    height:30vh;
+    background-color: #7f7deb;
+    color:#fff;
+}
+
+
+.outer-box .inner-box  button{
+    background-color:#ecf0f1;
+    color:#7f7deb;
+    border-radius: 10px;
+}
